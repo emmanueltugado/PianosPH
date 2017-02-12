@@ -13,6 +13,7 @@
 		B1665F071E500113003A6D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1665F051E500113003A6D97 /* LaunchScreen.storyboard */; };
 		B1665F121E500114003A6D97 /* PianosPHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1665F111E500114003A6D97 /* PianosPHTests.swift */; };
 		B1665F1D1E50014E003A6D97 /* PianoCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1665F1C1E50014E003A6D97 /* PianoCategoryViewController.swift */; };
+		B1665F201E501722003A6D97 /* PianoCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1665F1F1E501722003A6D97 /* PianoCategoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B1665F111E500114003A6D97 /* PianosPHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianosPHTests.swift; sourceTree = "<group>"; };
 		B1665F131E500114003A6D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1665F1C1E50014E003A6D97 /* PianoCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PianoCategoryViewController.swift; path = Controller/PianoCategoryViewController.swift; sourceTree = "<group>"; };
+		B1665F1F1E501722003A6D97 /* PianoCategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PianoCategoryTableViewCell.swift; path = View/PianoCategoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B1665F051E500113003A6D97 /* LaunchScreen.storyboard */,
 				B1665F081E500113003A6D97 /* Info.plist */,
 				B1665F1E1E500151003A6D97 /* Controller */,
+				B1665F211E501726003A6D97 /* View */,
 			);
 			path = PianosPH;
 			sourceTree = "<group>";
@@ -102,6 +105,14 @@
 				B1665F1C1E50014E003A6D97 /* PianoCategoryViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		B1665F211E501726003A6D97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1665F1F1E501722003A6D97 /* PianoCategoryTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1665F1D1E50014E003A6D97 /* PianoCategoryViewController.swift in Sources */,
+				B1665F201E501722003A6D97 /* PianoCategoryTableViewCell.swift in Sources */,
 				B1665EFD1E500113003A6D97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
